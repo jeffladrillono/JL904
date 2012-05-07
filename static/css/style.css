@@ -439,6 +439,31 @@ height: 40px;
     z-index:-1;
 }
 
+/* ---------------------
+   INFO PAGE
+----------------------*/
+ul.resume-info {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+ul.resume-info li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+ul.resume-info li p {
+    margin:0;
+    padding:0;
+}
+ul.resume-info li p:before {
+    content: "• ";
+    color: #f63; /* or whatever color you prefer */
+}
+span.resume-dates {
+    font-weight:lighter;
+    font-size:11pt;
+    margin-left:6px;
+}
 
 
 
