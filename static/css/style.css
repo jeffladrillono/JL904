@@ -230,7 +230,7 @@ html, body {
     font-family:'Oswald', 'News Cycle', Helvetica, sans-serif;
     overflow-x:hidden;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-weight:normal;
 }
 h1 {
@@ -243,10 +243,18 @@ h2 {
 }
 h3 {
     color:#373737;
-    font-size:15pt;
+    font-size:14pt;
+    margin:3px 0;
+}
+h4 {
+    font-size:11pt;
+    margin:3px 0;
+}
+h5 {
+    margin:3px 0;
 }
 
-p {
+p, h5 {
     font-size:15px;
     font-family: 'News Cycle', Helvetica, sans-serif;
 }
@@ -293,6 +301,14 @@ header a {
     margin:0;
     padding:0 0 0 25px;
     text-align:center;
+    
+    transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+#navtitle h1:hover {
+    color:#ffb887;
 }
 #navbutton_container {
     width:49%;
@@ -445,11 +461,11 @@ height: 40px;
 ul.resume-info {
     list-style: none;
     padding:0;
-    margin:0;
+    margin:0 0 25px 0;
 }
 ul.resume-info li { 
-    padding-left: 1em; 
-    text-indent: -.7em;
+    padding-left: 0.7em; 
+/*    text-indent: -.7em;*/
 }
 ul.resume-info li p {
     margin:0;
@@ -459,10 +475,14 @@ ul.resume-info li p:before {
     content: "• ";
     color: #f63; /* or whatever color you prefer */
 }
-span.resume-dates {
+h3.resume-dates {
     font-weight:lighter;
     font-size:11pt;
     margin-left:6px;
+}
+.client-list {
+    font-weight:bold;
+    margin:0 0 25px 0;
 }
 
 
