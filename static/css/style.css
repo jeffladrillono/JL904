@@ -464,7 +464,7 @@ ul.resume-info {
     margin:0 0 25px 0;
 }
 ul.resume-info li { 
-    padding-left: 0.7em; 
+/*    padding-left: 1em; */
 /*    text-indent: -.7em;*/
 }
 ul.resume-info li p {
